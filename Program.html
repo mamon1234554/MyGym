@@ -1,0 +1,103 @@
+﻿<html dir="ltr" lang="ar">
+<head>
+    <meta name="GENERATOR" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <title> POWER CORE </title>
+</head>
+<body>
+    <div class="menu">
+        <div>
+
+            <img src="Logo.jpg" width="145" height="100" style="margin-left: 15px;margin-top: 1px; float: left;" />
+            <h1 style="margin-left: 1%;font-size: 61px;float:left"> POWER CORE   </h1>
+        </div>
+        <div style="float: none;">
+            <ul>
+
+                <li><a href="homepage.html">Home</a> </li>
+                <li><a href="Program.html" style="background-color: darkgray;"> Programs</a> </li>
+
+                <li><a href="AboutUs.html">About Us </a></li>
+
+                <li><a href="contactUs.html">Contact us</a></li>
+            </ul>
+            <div id="date" style=" float: right; padding-right: 10px;">Loading...</div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="main">
+        <h1> Programs</h1>
+        <p>
+            At PowerCore Gym, we offer a wide variety of programs designed to suit every fitness level and goal.
+            <br />
+            <br />
+            Our most popular programs include:
+            <br />
+            <br />
+            <ul>
+                <li><strong>Strength Training:</strong> Build muscle and improve endurance with guided weightlifting sessions.</li>
+                <br />
+                <li><strong>Cardio Fitness:</strong> Burn calories and boost your heart health with high-energy workouts.</li>
+                <br />
+                <li><strong>Yoga & Pilates:</strong> Enhance flexibility, balance, and mindfulness through calming practices.</li>
+                <br />
+                <li><strong>HIIT Classes:</strong> Push your limits with high-intensity interval training.</li>
+                <br />
+                <li><strong>Zumba & Dance:</strong> Get fit while having fun with rhythm-based fitness classes.</li>
+                <br />
+                <li><strong>Personal Training:</strong> Work one-on-one with a certified coach to achieve your specific goals.</li>
+            </ul>
+        </p>
+
+
+
+
+
+    </div>
+
+
+    <div class="div-video">
+        <video loop="loop" autoplay="autoplay" controls="controls" style="padding-left: 25%; height: 437px; padding-top: 20px; padding-bottom: 20px; padding-right: 209px; ">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+
+
+    <div class="footer">
+        <h2 id="about">At POWER CORE</h2>
+        <p>
+             We believe that fitness is not just about working out — it's a lifestyle .
+            <br />
+        </p>
+        <ul>
+            <li> <a href="mailto:info@powercoregym.com">Send us an email</a></li>
+            <li>
+                <a href="https://www.google.com/maps/place/Kingdom+Centre/@24.7118668,46.6728009,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2f03280e046f99:0x37737eab160a212!8m2!3d24.7118668!4d46.6753758!16s%2Fg%2F11dfh5my2h?authuser=0&entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D">
+                    <img src="LocationLogo.jpg" width="168" height="50" style="margin-left: 1px;margin-top: 1px; float: left;" />
+                </a>
+            </li>
+            <li> <a href="https://www.mos.gov.sa/en"> The Ministry of Sport</a></li>
+
+        </ul>
+        <br />
+    </div>
+</body>
+</html>
+<script>
+
+    function showDate() {
+        const today = new Date();
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const formattedDate = today.toLocaleDateString(undefined, options);
+        document.getElementById('date').textContent = formattedDate;
+    }
+
+    showDate(); 
+
+</script>
